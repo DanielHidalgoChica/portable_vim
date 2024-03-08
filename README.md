@@ -1,5 +1,5 @@
 # portable_vim
-Versión portable y personalizada de Vim para Linux ya testeado en Ubuntu 20.04 en los ordenadores de prácticas de la ETSIIT UGR.
+Versión portable y personalizada de Vim para Linux ya testeado en Ubuntu 20.04 en los ordenadores de prácticas de la ETSIIT UGR. Contamina el $HOME, pero eso da igual en un ordenador de prácticas.
 
 ## Instrucciones de uso
 Clonar los archivos del repositorio (o usar .vimrc / .vim propios) y ejecutar el script ugr_vim_setup_lite.sh con un argumento: el nombre del USB (o directorio) donde estén guardadosel .vimrc, .vim y vim.tgz
