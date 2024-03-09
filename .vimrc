@@ -20,6 +20,7 @@ set showcmd
 "		            v
 
 call plug#begin()
+Plug 'https://github.com/vim-ruby/vim-ruby'
 Plug 'jiangmiao/auto-pairs'
 Plug 'gruvbox-community/gruvbox'
 Plug 'vim-airline/vim-airline'
