@@ -155,7 +155,7 @@ let b:undo_ftplugin = "setl inc= sua= path= tags= fo< com< cms< kp="
       \."| if exists('&ofu') && has('ruby') | setl ofu< | endif"
 
 if get(g:, 'ruby_recommended_style', 1)
-  setlocal shiftwidth=2 softtabstop=2 expandtab
+  setlocal shiftwidth=4 softtabstop=4 expandtab
   let b:undo_ftplugin .= ' | setl sw< sts< et<'
 endif
 
