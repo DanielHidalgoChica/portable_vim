@@ -10,7 +10,7 @@ set ignorecase
 set smartcase
 
 "Mapeo de jk a la tecla Esc en modo insertar 
-inoremap jk <ESC> 
+inoremap jk <ESC>
 
 syntax on "Sintaxis de colores en función del tipo
 
