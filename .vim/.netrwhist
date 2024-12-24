@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/daniel'
+let g:netrw_dirhist_7='/home'
+let g:netrw_dirhist_6='/home/daniel'
+let g:netrw_dirhist_5='/home/daniel/.gnupg'
+let g:netrw_dirhist_4='/home/daniel'
+let g:netrw_dirhist_3='/home/daniel/.vim/UltiSnips'
+let g:netrw_dirhist_2='/home/daniel/.vim/autoload'
+let g:netrw_dirhist_1='/home/daniel/.vim/after/indent'
+let g:netrw_dirhist_0='/home/daniel/.vim'
+let g:netrw_dirhist_9='/home/daniel/.vim/after/ftplugin'
