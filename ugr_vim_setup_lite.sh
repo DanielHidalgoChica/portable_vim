@@ -15,14 +15,8 @@ cd "$HOME"
 tar zxf "$HOME/vim.tgz"   # Extraemos Vim portátil
 
 # Añadimos Vim portátil al PATH (solo si no está ya)
-if ! grep -q 'vim/usr' "$HOME/.bash_profile" 2>/dev/null; then
-    echo 'export PATH="$HOME/vim/usr:$PATH"' >> "$HOME/.bash_profile"
-fi
-
-# Cargamos el PATH nuevo en esta shell (para usar Vim ya)
-if [ -f "$HOME/.bash_profile" ]; then
-    # shellcheck source=/dev/null
-    . "$HOME/.bash_profile"
+if ! grep -q 'vim/usr' "$HOME/.bashrc" 2>/dev/null; then
+    echo 'export PATH="$HOME/vim/usr:$PATH"' >> "$HOME/.bashrc"
 fi
 
 #######################################
