@@ -1,11 +1,12 @@
 # portable_vim
-Versión portable y personalizada de Vim (Vi Improved 9.1 Normal version without GUI) para Linux ya testeado en todos los sistemas operativos de los ordenadores de prácticas de la ETSIIT UGR excepto Ubuntu 18.
-Es decir, funciona en Kubuntu y Ubuntu 20.04, 22.04 y 24.04.
 
-Contamina el $HOME. Asume uso de bash.
+Portable and customized version of Vim (Vi Improved 9.1 Normal version without GUI) for Linux, tested on all operating systems of the ETSIIT UGR lab computers except Ubuntu 18.
+Specifically, it works on Kubuntu and Ubuntu 20.04, 22.04, and 24.04.
 
-Uso:
-1. Clonar los archivos del repositorio (o usar .vimrc propio) y ejecutar el script ugr_vim_setup_lite.sh con un argumento: el nombre del USB (o directorio) donde estén guardados el .vimrc y vim.tgz
-2. Ejecutar `source .bashrc`
+It modifies the `$HOME` directory. Assumes the use of **Bash**.
 
-Importante: quedan switcheados la tecla Ctrl y Caps-Lock. Si no se desesa este efecto, comentar la última parte del script.
+### Usage
+1. Clone the repository files (or use your own `.vimrc`) and run the script `ugr_vim_setup_lite.sh` with one argument: the name of the USB (or directory) where the `.vimrc` and `vim.tgz` are stored.
+2. Execute `source .bashrc`.
+
+**Important:** The **Ctrl** and **Caps-Lock** keys are swapped. If you do not want this effect, comment out the last part of the script.
